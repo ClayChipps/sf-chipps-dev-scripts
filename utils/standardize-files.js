@@ -49,7 +49,7 @@ function writeLicenseFile(targetDir) {
   const licenseTargetPath = join(targetDir, FILE_NAME_LICENSE);
 
   const license = readFileSync(licenseSourcePath, 'utf-8');
-  const licenseWithYear = license.replace('REPLACE_YEAR', new Date().getFullYear());
+  const licenseWithYear = license.replaceAll('REPLACE_YEAR', new Date().getFullYear());
 
   // Hacky: create a tmp file to copy from to utilize existing checks and logging in copyFile()
   writeFileSync(licenseSourceTmpPath, licenseWithYear);
