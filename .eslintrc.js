@@ -8,6 +8,9 @@
 /* eslint-disable max-len */
 module.exports = {
   extends: ['eslint-config-salesforce'],
+  parserOptions: {
+    ecmaVersion: 12,
+  },
   plugins: ['eslint-plugin-header'],
   root: true,
   rules: {
