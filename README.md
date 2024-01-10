@@ -1,5 +1,7 @@
 # sf-chipps-dev-scripts
 
+[![NPM](https://img.shields.io/npm/v/sf-chipps-dev-scripts.svg?label=sf-chipps)](https://www.npmjs.com/package/sf-chipps-dev-scripts) [![Downloads/week](https://img.shields.io/npm/dw/sf-chipps.svg)](https://npmjs.org/package/sf-chipps-dev-scripts) [![Known Vulnerabilities](https://snyk.io/test/github/ClayChipps/sf-chipps-dev-scripts/badge.svg)](https://snyk.io/test/github/ClayChipps/sf-chipps-dev-scripts) [![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD_3--Clause-yellow.svg)](https://raw.githubusercontent.com/ClayChipps/sf-chipps-dev-scripts/main/LICENSE.txt)
+
 ## What is this?
 
 A collection of commonly needed scripts and hooks used by sf-chipps typescript projects. This helps to enforce consistency across and reduces the amount of time it takes to setup new projects. This also reduces the amount of needed configuration required for each project by using common configuration from [@salesforce/dev-config](https://www.npmjs.com/package/@salesforce/dev-config) by default.
