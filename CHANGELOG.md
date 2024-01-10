@@ -1,4 +1,13 @@
-# 1.0.0 (2024-01-10)
+## [1.0.1](https://github.com/ClayChipps/sf-chipps-dev-scripts/compare/1.0.0...1.0.1) (2024-01-10)
+
+
+### Bug Fixes
+
+* license year replacement ([65e2ca8](https://github.com/ClayChipps/sf-chipps-dev-scripts/commit/65e2ca846bced6ca893a00f336736f88cacb2c09))
+
+
+
+# [1.0.0](https://github.com/ClayChipps/sf-chipps-dev-scripts/compare/d2b38c32ebadd9a3b02fc1110e50271062d8dc97...1.0.0) (2024-01-10)
 
 
 ### Bug Fixes
