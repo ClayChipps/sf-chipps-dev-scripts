@@ -1,8 +1,8 @@
-# Common scripts and hooks for Salesforce typescript projects
+# sf-chipps-dev-scripts
 
 ## What is this?
 
-A collection of commonly needed scripts and hooks used by Salesforce typescript projects. This helps to enforce consistency across and reduces the amount of time it takes to setup new projects. This also reduces the amount of needed configuration required for each project by using common configuration from [@salesforce/dev-config](https://www.npmjs.com/package/@salesforce/dev-config) by default.
+A collection of commonly needed scripts and hooks used by sf-chipps typescript projects. This helps to enforce consistency across and reduces the amount of time it takes to setup new projects. This also reduces the amount of needed configuration required for each project by using common configuration from [@salesforce/dev-config](https://www.npmjs.com/package/@salesforce/dev-config) by default.
 
 When dev-scripts is added as a dev dependency, it will enforce the package.json has the right scripts, hooks, and dependencies. Use the `.sfdevrc.json` to configure what is generated and controlled.
 
@@ -81,6 +81,4 @@ DevScripts has an action you can run which will run the devScripts action in lot
 
 This runs automatically after devScripts releases.
 
-You need to maintain the list of repos here: https://github.com/forcedotcom/dev-scripts/blob/361bc49a6694fdd9c772031ac583e8a80f139a83/.github/workflows/cross-repo-bump.yml#L17
-
-You can see the in-progress PRs using https://github.com/pulls?q=is%3Aopen+is%3Apr+archived%3Afalse+%22refactor%3A+devScripts+update%22
+You need to maintain the list of repos here: https://github.com/ClayChipps/sf-chipps-dev-scripts/blob/main/.github/workflows/cross-repo-bump.yml
