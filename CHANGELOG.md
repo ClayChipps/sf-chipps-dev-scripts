@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/ClayChipps/sf-chipps-dev-scripts/compare/1.0.1...1.1.0) (2024-02-01)
+
+
+### Features
+
+* plugins have space as oclif.topicSeparator ([2dd90ba](https://github.com/ClayChipps/sf-chipps-dev-scripts/commit/2dd90ba388d42e35485ab37a803aea1ea4e96665))
+
+
+
 ## [1.0.1](https://github.com/ClayChipps/sf-chipps-dev-scripts/compare/1.0.0...1.0.1) (2024-01-10)
 
 
