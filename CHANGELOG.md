@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/ClayChipps/sf-chipps-dev-scripts/compare/1.1.0...2.0.0) (2024-02-15)
+
+
+* feat!: migrate to pnpm ([554ab72](https://github.com/ClayChipps/sf-chipps-dev-scripts/commit/554ab72e3ec42e929e0245fad7b25b03c0f98395))
+
+
+### BREAKING CHANGES
+
+* migrated to pnpm
+
+
+
 # [1.1.0](https://github.com/ClayChipps/sf-chipps-dev-scripts/compare/1.0.1...1.1.0) (2024-02-01)
 
 
