@@ -12,7 +12,7 @@ const { isPlugin } = require('../utils/project-type');
 const packageRoot = require('../utils/package-path');
 const { semverIsLessThan } = require('../utils/semver');
 
-shell.exec('yarn build');
+shell.exec('pnpm build');
 
 if (isPlugin(packageRoot)) {
   if (shell.which('oclif')) {

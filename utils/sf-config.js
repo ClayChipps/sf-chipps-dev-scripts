@@ -99,7 +99,7 @@ const resolveConfig = (path) => {
     scripts: {
       ...PACKAGE_DEFAULTS.scripts,
       // wireit scripts don't need an entry in pjson scripts.
-      // remove these from scripts and let wireit handle them (just repeat running yarn test)
+      // remove these from scripts and let wireit handle them (just repeat running pnpm test)
       // https://github.com/google/wireit/blob/main/CHANGELOG.md#094---2023-01-30
       'test:command-reference': undefined,
       'test:deprecation-policy': undefined,

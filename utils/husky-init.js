@@ -12,7 +12,7 @@ const packagePath = require('../utils/package-path');
 const shell = require('./shelljs');
 
 // This should be in each package's `prepare` script but we already use it to run `sf-install`.
-shell.exec('yarn husky install');
+shell.exec('pnpm husky install');
 
 function initializeHusky() {
   try {
@@ -21,14 +21,14 @@ function initializeHusky() {
       .filter((hook) => hook !== '_');
 
     if (localGitHooks.length === 0) {
-      shell.exec("yarn husky add .husky/commit-msg 'yarn commitlint --edit'");
-      shell.exec("yarn husky add .husky/pre-commit 'yarn lint && yarn pretty-quick --staged'");
-      shell.exec("yarn husky add .husky/pre-push 'yarn build && yarn run test:only -- --forbid-only'");
+      shell.exec("pnpm husky add .husky/commit-msg 'pnpm commitlint --edit'");
+      shell.exec("pnpm husky add .husky/pre-commit 'pnpm lint && pnpm pretty-quick --staged'");
+      shell.exec("pnpm husky add .husky/pre-push 'pnpm build && pnpm run test:only -- --forbid-only'");
     }
   } catch (err) {
     if (err.code === 'ENOENT') {
       const errorHeader = chalk.red('ERROR: ');
-      const errorMsg = ".husky folder wasn't found, try running `yarn husky install` to finish the install";
+      const errorMsg = ".husky folder wasn't found, try running `pnpm husky install` to finish the install";
       // eslint-disable-next-line no-console
       console.error(chalk.bold(`\n${errorHeader}${errorMsg}\n`));
       process.exit(1);

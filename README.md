@@ -22,23 +22,23 @@ To automatically have dev-scripts enabled after install, edit `package.json`:
 The common scripts that are added to each project include:
 
 - clean: cleans lib/, coverage/, and a host of other files that shouldn't be included in the repository; include `all` to also clean node_modules
-  e.g. `yarn clean` or `yarn clean-all`
+  e.g. `pnpm clean` or `pnpm clean-all`
 - compile: compiles src/ to /lib using tsc
-  e.g. `yarn compile`
+  e.g. `pnpm compile`
 - lint: lints src/ using tslint
-  e.g. `yarn lint`
+  e.g. `pnpm lint`
 - test: runs tests using nyc and mocha
-  e.g. `yarn test`
+  e.g. `pnpm test`
 - build: runs the clean, compile, lint, and test targets
-  e.g. `yarn build`
+  e.g. `pnpm build`
 - docs: generates docs/ using typedoc
-  e.g. `yarn docs`
+  e.g. `pnpm docs`
 
 The common hooks that are added to each project include:
 
 - commit-msg: verifies the commit message conforms to [angular guidelines](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-guidelines) using [commitlint](https://github.com/marionebl/commitlint).
-- pre-commit: runs prettier on staged files and `yarn docs`.
-- pre-push: runs `yarn build`.
+- pre-commit: runs prettier on staged files and `pnpm docs`.
+- pre-push: runs `pnpm build`.
 
 ## Configuration
 
@@ -61,7 +61,7 @@ And it maintains the `scripts` and `wireit` properties. Imagine you want a diffe
 ```json
 {
   "scripts": {
-    "test": "yarn test:nuts"
+    "test": "pnpm test:nuts"
   },
   "wireit": {
     "lint": {

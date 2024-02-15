@@ -12,7 +12,7 @@ const exists = require('../utils/exists');
 
 if (changed) {
   const errorHeader = chalk.red('ERROR: ');
-  const errorMsg = "Dependencies have changed and saved to package.json. Rerun 'yarn install' to finish the install";
+  const errorMsg = "Dependencies have changed and saved to package.json. Rerun 'pnpm install' to finish the install";
   // eslint-disable-next-line no-console
   console.error(chalk.bold(`\n${errorHeader}${errorMsg}\n`));
   process.exit(1);

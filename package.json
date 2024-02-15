@@ -16,6 +16,7 @@
     "clean": "bin/sf-clean.js",
     "clean-all": "bin/sf-clean.js all",
     "test": "nyc mocha test/**/*.test.js",
+    "preinstall": "npx only-allow pnpm",
     "prepare": "husky install"
   },
   "keywords": [
