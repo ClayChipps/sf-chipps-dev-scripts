@@ -1,6 +1,6 @@
 # -- CLEAN
 
-# use pnpm by default, so ignore npm
+# use yarn by default, so ignore npm
 package-lock.json
 
 # never checkin npm config
@@ -8,6 +8,7 @@ package-lock.json
 
 # debug logs
 npm-error.log
+yarn-error.log
 
 # compile source
 lib

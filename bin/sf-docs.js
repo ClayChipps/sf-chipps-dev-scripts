@@ -27,7 +27,7 @@ shell.exec(`find ./${outDir}/* -not -path './${outDir}/perf*' -delete`);
 
 outDir = join(packageRoot, outDir, 'tmp');
 
-let command = `pnpm typedoc --out ${outDir}`;
+let command = `yarn typedoc --out ${outDir}`;
 
 // typedocs does not allow extending configs, so merge the
 // defaults and overrides and put them on the command
