@@ -1,3 +1,12 @@
+# [3.1.0](https://github.com/ClayChipps/sf-chipps-dev-scripts/compare/3.0.0...3.1.0) (2024-02-16)
+
+
+### Features
+
+* run shrinkwrap during sf-prepack ([fe6cedd](https://github.com/ClayChipps/sf-chipps-dev-scripts/commit/fe6cedd15411e727fac30c895e30ec62d76a877d))
+
+
+
 # [3.0.0](https://github.com/ClayChipps/sf-chipps-dev-scripts/compare/2.0.0...3.0.0) (2024-02-15)
 
 

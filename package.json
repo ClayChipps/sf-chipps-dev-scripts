@@ -1,6 +1,6 @@
 {
   "name": "sf-chipps-dev-scripts",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Standardize package.json scripts and config files for sf-chipps projects.",
   "repository": "ClayChipps/sf-chipps-dev-scripts",
   "bin": {
