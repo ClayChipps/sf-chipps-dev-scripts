@@ -1,3 +1,12 @@
+## [3.1.1](https://github.com/ClayChipps/sf-chipps-dev-scripts/compare/3.1.0...3.1.1) (2024-02-16)
+
+
+### Bug Fixes
+
+* gitignore standardization on windows ([1d184fa](https://github.com/ClayChipps/sf-chipps-dev-scripts/commit/1d184faa879a08aabd19369176620a1bfc9e8212))
+
+
+
 # [3.1.0](https://github.com/ClayChipps/sf-chipps-dev-scripts/compare/3.0.0...3.1.0) (2024-02-16)
 
 
