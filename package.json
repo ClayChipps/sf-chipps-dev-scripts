@@ -32,7 +32,7 @@
     "sfdevrc.schema.json"
   ],
   "dependencies": {
-    "@commitlint/cli": "^17.1.2",
+    "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.8.1",
     "@salesforce/dev-config": "^4.1.0",
     "@salesforce/prettier-config": "^0.0.3",
@@ -47,7 +47,7 @@
     "husky": "^7.0.4",
     "linkinator": "^6.0.4",
     "mocha": "^10.3.0",
-    "nyc": "^15.1.0",
+    "nyc": "^17.0.0",
     "prettier": "^2.8.8",
     "pretty-quick": "^3.3.1",
     "shelljs": "^0.8.5",
@@ -57,7 +57,7 @@
     "typedoc": "^0.25.9",
     "typedoc-plugin-missing-exports": "0.23.0",
     "typescript": "^4.9.5",
-    "wireit": "^0.14.4"
+    "wireit": "^0.14.5"
   },
   "publishConfig": {
     "access": "public"
